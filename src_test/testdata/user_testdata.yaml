@@ -1,0 +1,6 @@
+first_name: Sakshi
+lst_name: Sharma
+zip_code: 140604
+text_to_find: Sauce Labs Fleece Jacket
+highcost: (//*[@class="inventory_item_description"]//ancestor::*[@class="inventory_item"]//*[@class="inventory_item_price"])[1]
+highcost_itemtitle: (//*[@class="inventory_item_description"]//ancestor::*[@class="inventory_item"]//a)[2]

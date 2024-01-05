@@ -1,0 +1,8 @@
+about: About
+home_title: Swag Labs
+checkout_title: Your Information
+checkout_overview_title: "Checkout: Overview"
+hilo: high to low
+
+#PATH
+price_xpath: //*[@class="pricebar"]//ancestor::*[@class="inventory_item"]//*[@class='inventory_item_price']
