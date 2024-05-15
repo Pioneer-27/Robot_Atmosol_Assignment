@@ -62,8 +62,8 @@ Validate Total Value
     [Documentation]    Go to Overview Summary page and Validate the total price in the format as $xx.yy
     Wait Until Location Contains    https://www.saucedemo.com/checkout-step-two.html
     Page Should Contain    Checkout: Overview
-    Scroll Element Into View    //*[@class='summary_info_label summary_total_label']
-    ${total_price} =    Get Text    //*[@class='summary_info_label summary_total_label']
+    Scroll Element Into View    //*[@class='summary_total_label']
+    ${total_price} =    Get Text    //*[@class='summary_total_label']
     @{values} =    Split String    ${total_price}    ${SPACE}
     ${first_value} =    Set Variable    ${values}[0]
     ${second_value} =    Set Variable    ${values}[1]
